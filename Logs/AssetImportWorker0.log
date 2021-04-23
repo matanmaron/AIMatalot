@@ -1,0 +1,421 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'en' Physical Memory: 16335 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\UNITY\2020.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UNITY/AIMatalot
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61663
+Successfully changed project path to: D:/UNITY/AIMatalot
+D:/UNITY/AIMatalot
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 173.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path C:/UNITY/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UNITY/AIMatalot/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   
+    VRAM:     8088 MB
+    Driver:   27.21.14.6611
+Initialize mono
+Mono path[0] = 'C:/UNITY/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/UNITY/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/UNITY/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/UNITY/2020.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/UNITY/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005616 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 67.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.423 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009884 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.665 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.9 MB.
+System memory in use after: 57.0 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1557.
+Total: 2.175200 ms (FindLiveObjects: 0.127700 ms CreateObjectMapping: 0.037700 ms MarkObjects: 1.933200 ms  DeleteObjects: 0.075300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42baae205c97e3337697759514652acd') in 0.025436 seconds
+  Import took 0.054958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.664240 seconds.
+  path: Assets/TikTakTo
+  artifactKey: Guid(6e6d1c5ceccb2ea49a6266a142fea7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TikTakTo using Guid(6e6d1c5ceccb2ea49a6266a142fea7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7691eb24050c947c131f0ba305e6c744') in 0.004534 seconds
+  Import took 0.020179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.109578 seconds.
+  path: Assets/TikTakTo/Cell.prefab
+  artifactKey: Guid(a72f0aa3534629b4d9de17591da11699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TikTakTo/Cell.prefab using Guid(a72f0aa3534629b4d9de17591da11699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17287b0d05aea94bc735e6906e233e92') in 0.140974 seconds
+  Import took 0.144418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.621552 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777e927d0b238e2cde0f6869e17df74c') in 0.011652 seconds
+  Import took 0.014890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.776171 seconds.
+  path: Assets/Scenes/1-TikTakTo.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/1-TikTakTo.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e605f84f97061daae19920940b0b3aee') in 0.008762 seconds
+  Import took 0.026168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.574710 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3edb84cb6369d51e5c7aa067b7ea9192') in 0.003480 seconds
+  Import took 0.029764 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001104 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.653 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.0 MB.
+System memory in use after: 57.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1562.
+Total: 1.497900 ms (FindLiveObjects: 0.121800 ms CreateObjectMapping: 0.034600 ms MarkObjects: 1.288000 ms  DeleteObjects: 0.052400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.572485 seconds.
+  path: Assets/Editor
+  artifactKey: Guid(6a51e1b236b1cdd4b8a5c392686caede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor using Guid(6a51e1b236b1cdd4b8a5c392686caede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6850ed91e9261025a7df925f47a1ff30') in 0.008630 seconds
+  Import took 0.026788 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000709 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.275 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.0 MB.
+System memory in use after: 57.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1566.
+Total: 1.726700 ms (FindLiveObjects: 0.123100 ms CreateObjectMapping: 0.036800 ms MarkObjects: 1.517500 ms  DeleteObjects: 0.048300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000639 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.443 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.1 MB.
+System memory in use after: 57.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1569.
+Total: 3.292300 ms (FindLiveObjects: 0.156300 ms CreateObjectMapping: 0.038500 ms MarkObjects: 3.037700 ms  DeleteObjects: 0.057500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000545 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.147 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.1 MB.
+System memory in use after: 57.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1572.
+Total: 1.834500 ms (FindLiveObjects: 0.208600 ms CreateObjectMapping: 0.041100 ms MarkObjects: 1.525600 ms  DeleteObjects: 0.058200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 292.759924 seconds.
+  path: Assets/TikTakTo/AudioManager.cs
+  artifactKey: Guid(68f6294b9944e7847ab9703a132e40ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TikTakTo/AudioManager.cs using Guid(68f6294b9944e7847ab9703a132e40ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77523d2c57a2d27787ddb5c8bc9dc8c4') in 0.032971 seconds
+  Import took 0.035337 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000559 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.210 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.1 MB.
+System memory in use after: 57.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1576.
+Total: 26.166300 ms (FindLiveObjects: 0.143800 ms CreateObjectMapping: 0.040900 ms MarkObjects: 25.910600 ms  DeleteObjects: 0.068200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000576 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.235 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.2 MB.
+System memory in use after: 57.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1579.
+Total: 4.438200 ms (FindLiveObjects: 0.126000 ms CreateObjectMapping: 0.036900 ms MarkObjects: 4.217000 ms  DeleteObjects: 0.056800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 546.123418 seconds.
+  path: Assets/TikTakTo/AudioManager.cs
+  artifactKey: Guid(68f6294b9944e7847ab9703a132e40ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TikTakTo/AudioManager.cs using Guid(68f6294b9944e7847ab9703a132e40ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c09cfa41dc80ab0869cc3c40a4929a') in 0.011340 seconds
+  Import took 0.017425 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000675 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.246 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.2 MB.
+System memory in use after: 57.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1582.
+Total: 1.618100 ms (FindLiveObjects: 0.129400 ms CreateObjectMapping: 0.036800 ms MarkObjects: 1.401500 ms  DeleteObjects: 0.049400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 206.158166 seconds.
+  path: Assets/TikTakTo/Scripts
+  artifactKey: Guid(bd6c5b1c750f2e042a105dc2413a6396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TikTakTo/Scripts using Guid(bd6c5b1c750f2e042a105dc2413a6396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e405479209cf706050aa75aed0c96dd') in 0.020525 seconds
+  Import took 0.026683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.714583 seconds.
+  path: Assets/TikTakTo/Prefabs
+  artifactKey: Guid(a9769c5a39fb3fe49ba507522b6ddb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TikTakTo/Prefabs using Guid(a9769c5a39fb3fe49ba507522b6ddb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4688f81253edb6ed70672e41309ca4') in 0.011986 seconds
+  Import took 0.019503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.614831 seconds.
+  path: Assets/TikTakTo/Sfx
+  artifactKey: Guid(767e742409367094aa5ed6c6284157a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TikTakTo/Sfx using Guid(767e742409367094aa5ed6c6284157a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953ef8ad1b654a82be0e42fc8eb2dc0c') in 0.019645 seconds
+  Import took 0.040941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.161561 seconds.
+  path: Assets/TikTakTo/AudioManager.cs
+  artifactKey: Guid(68f6294b9944e7847ab9703a132e40ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TikTakTo/AudioManager.cs using Guid(68f6294b9944e7847ab9703a132e40ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ee5ac775845adaf7a5def3bd7e6e1d') in 0.003812 seconds
+  Import took 0.018930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.454045 seconds.
+  path: Assets/TikTakTo/UIManager.cs
+  artifactKey: Guid(876b9bd5e12cd0940a7be5a3373722a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TikTakTo/UIManager.cs using Guid(876b9bd5e12cd0940a7be5a3373722a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36fb490c749b4c14657a2cdde0ea2fa3') in 0.002639 seconds
+  Import took 0.005024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001507 seconds.
+  path: Assets/TikTakTo/UIManager.cs
+  artifactKey: Guid(876b9bd5e12cd0940a7be5a3373722a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TikTakTo/UIManager.cs using Guid(876b9bd5e12cd0940a7be5a3373722a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36fb490c749b4c14657a2cdde0ea2fa3') in 0.027100 seconds
+  Import took 0.030368 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000977 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.337 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.2 MB.
+System memory in use after: 57.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1585.
+Total: 4.408300 ms (FindLiveObjects: 0.151300 ms CreateObjectMapping: 0.039900 ms MarkObjects: 4.122900 ms  DeleteObjects: 0.092100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.504076 seconds.
+  path: Assets/TikTakTo/Sfx/bensound-theelevatorbossanova.mp3
+  artifactKey: Guid(79ebf98f4708792458a6ca8e25e74252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TikTakTo/Sfx/bensound-theelevatorbossanova.mp3 using Guid(79ebf98f4708792458a6ca8e25e74252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0aae8675fe09f8dee5d55584ade1d7d') in 0.141261 seconds
+  Import took 0.145150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.012526 seconds.
+  path: Assets/TikTakTo/Sfx/413690__splatez07__click.m4a
+  artifactKey: Guid(fc9eb5259d8ee6c47be31e0ce0ce0dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TikTakTo/Sfx/413690__splatez07__click.m4a using Guid(fc9eb5259d8ee6c47be31e0ce0ce0dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e57d9d120f5b73e74b2963e73cb9922') in 0.070002 seconds
+  Import took 0.090211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.403239 seconds.
+  path: Assets/TikTakTo/Sfx/413690__splatez07__click.mp3
+  artifactKey: Guid(e7b20b90bba7c62488cb9d01550c37a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TikTakTo/Sfx/413690__splatez07__click.mp3 using Guid(e7b20b90bba7c62488cb9d01550c37a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8f2cc336de74ab6494a0b4034a7d29') in 0.060668 seconds
+  Import took 0.064688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.407589 seconds.
+  path: Assets/TikTakTo/Sfx/sad-trombone.wav
+  artifactKey: Guid(076233cfdff55964994cd47f308fc9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TikTakTo/Sfx/sad-trombone.wav using Guid(076233cfdff55964994cd47f308fc9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8636a62c32c64da47d0ec0515ea8bf90') in 0.032111 seconds
+  Import took 0.035229 seconds .
+
