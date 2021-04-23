@@ -8,7 +8,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] AudioSource Click = null;
     [SerializeField] AudioSource Lose = null;
 
-    private void PlayClickAudio() => Music.Play();
+    private void PlayClickAudio() => Click.Play();
     private void PlayLoseAudio() => Lose.Play();
 
     private void OnEnable()

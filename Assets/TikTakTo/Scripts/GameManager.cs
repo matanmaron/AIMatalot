@@ -93,11 +93,13 @@ public class GameManager : MonoBehaviour
         ShowBoard();
         if (CheckWinner(board) == Participants.AI)
         {
+            OnPlayerLose?.Invoke();
             UIManager.SendUIMessage("Computer Won!!!!");
             gameOver = true;
         }
         if (isFullBoard())
         {
+            OnPlayerLose?.Invoke();
             UIManager.SendUIMessage("Game Over, no one Won...");
             gameOver = true;
         }
@@ -183,6 +185,7 @@ public class GameManager : MonoBehaviour
             else
             if (isFullBoard())
             {
+                OnPlayerLose?.Invoke();
                 UIManager.SendUIMessage("Game Over, no one Won...");
                 gameOver = true;
             }
