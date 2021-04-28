@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/2-Movment/2-Movment.unity
     guid: 7ef73dae4f882de44aebb6d91fec9e33
+  - enabled: 1
+    path: Assets/3-Rotation/3-Rotation.unity
+    guid: d789ece6c433b554387bb3cf83c7dcff
   m_configObjects: {}
