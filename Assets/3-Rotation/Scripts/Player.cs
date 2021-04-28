@@ -1,3 +1,5 @@
+using System;
+using System.Collections;
 using UnityEngine;
 using UnityStandardAssets.Characters.ThirdPerson;
 
@@ -5,14 +7,15 @@ namespace Targil3
 {
     public class Player : MonoBehaviour
     {
-        public Vector3 goal;
-        public float speed = 0.03f;
+        public float speed = 0.02f;
         public float distance = 1.5f;
         public ThirdPersonCharacter thirdPersonCharacter;
         public LineRenderer LineRenderer;
+        Vector3 goal;
 
         private void Start()
         {
+            goal = transform.position;
             LineRenderer.startColor = Color.green;
             LineRenderer.endColor = Color.blue;
             LineRenderer.startWidth = 0.1f;
@@ -44,6 +47,19 @@ namespace Targil3
                 thirdPersonCharacter.Move(pushVector, false, false);
             }
             Debug.DrawLine(transform.position, realGoal, Color.green);
+        }
+
+        public void Boost()
+        {
+            StartCoroutine(SpeedBoost());
+        }
+
+        IEnumerator SpeedBoost()
+        {
+            var oldspeed = speed;
+            speed = 0.05f;
+            yield return new WaitForSeconds(2);
+            speed = oldspeed;
         }
     }
 }
