@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/3-Rotation/3-Rotation.unity
     guid: d789ece6c433b554387bb3cf83c7dcff
+  - enabled: 1
+    path: Assets/4-Jacks/4-Jacks.unity
+    guid: 76016193b4929174ea2e7decd1218ff5
   m_configObjects: {}

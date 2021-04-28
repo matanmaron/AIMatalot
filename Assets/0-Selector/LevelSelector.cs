@@ -19,5 +19,9 @@ namespace LevelSelector
         {
             SceneManager.LoadScene(3);
         }
+        public void On4()
+        {
+            SceneManager.LoadScene(4);
+        }
     }
 }
