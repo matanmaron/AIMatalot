@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 namespace Targil2
@@ -9,6 +10,8 @@ namespace Targil2
         public Transform goal;
         public float speed = 0.01f;
         public float distance = 1.5f;
+        public TextMeshProUGUI txt;
+        bool done = false;
 
         void Update()
         {
@@ -24,6 +27,11 @@ namespace Targil2
             }
             else
             {
+                if (!done)
+                {
+                    txt.text += "DONE!";
+                    done = true;
+                }
                 GetComponent<Animator>().SetBool("near", true);
             }
         }

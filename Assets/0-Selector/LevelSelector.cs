@@ -23,5 +23,9 @@ namespace LevelSelector
         {
             SceneManager.LoadScene(4);
         }
+        public void OnQ()
+        {
+            Application.Quit();
+        }
     }
 }
