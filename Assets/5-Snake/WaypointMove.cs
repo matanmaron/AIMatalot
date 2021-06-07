@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace Targil5
@@ -12,10 +13,11 @@ namespace Targil5
         public float distance = 1.5f;
         public GameObject[] waypoints;
         int nextWaypoint = 0;
+        [SerializeField] GameObject Glow;
 
         void Start()
         {
-            waypoints = GameObject.FindGameObjectsWithTag("waypoints");
+            waypoints = GameObject.FindGameObjectsWithTag("waypoints").OrderBy(x=>x.name).ToArray();
             for (int i = 0; i < waypoints.Length; i++)
             {
                 Debug.Log(waypoints[i].name + " " + waypoints[i].transform.position);
@@ -37,6 +39,7 @@ namespace Targil5
             Debug.DrawRay(transform.position, direction, Color.green);
             if (direction.magnitude >= distance)
             {
+                Glow.transform.position = waypoints[nextWaypoint].transform.position;
                 Vector3 pushVector = direction.normalized * speed;
                 transform.Translate(pushVector, Space.World);
             }
@@ -47,7 +50,7 @@ namespace Targil5
                 {
                     nextWaypoint = 0;
                 }
-                // nextWaypoint = Random.Range(0, waypoints.Length);
+                Glow.transform.position = waypoints[nextWaypoint].transform.position;
             }
         }
     }

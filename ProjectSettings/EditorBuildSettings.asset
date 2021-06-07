@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/4-Jacks/4-Jacks.unity
     guid: 76016193b4929174ea2e7decd1218ff5
+  - enabled: 1
+    path: Assets/5-Snake/5-Snake.unity
+    guid: c8cb4f66f07ca6a45ad9c0b9a600399f
   m_configObjects: {}
