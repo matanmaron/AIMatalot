@@ -27,6 +27,10 @@ namespace LevelSelector
         {
             SceneManager.LoadScene(5);
         }
+        public void On6()
+        {
+            SceneManager.LoadScene(6);
+        }
         public void OnQ()
         {
             Application.Quit();

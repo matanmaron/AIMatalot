@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/5-Snake/5-Snake.unity
     guid: c8cb4f66f07ca6a45ad9c0b9a600399f
+  - enabled: 1
+    path: Assets/6-Graph/6-Graph.unity
+    guid: 43922f0597f312c4781208af250ebf82
   m_configObjects: {}
